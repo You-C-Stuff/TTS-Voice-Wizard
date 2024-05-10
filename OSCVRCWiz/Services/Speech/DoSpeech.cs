@@ -440,7 +440,6 @@ namespace OSCVRCWiz.Services.Speech
                         if (VoiceWizardWindow.MainFormGlobal.rjToggleButtonOBSText.Checked == true)
                         {
                             OutputText.outputTextFile(originalText, @"Output\TextOutput\OBSText.txt");
-                            OutputText.outputTextFile(newText, @"Output\TextOutput\OBSTextTranslated.txt");
                         }
 
                     }
