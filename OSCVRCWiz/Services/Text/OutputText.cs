@@ -774,7 +774,6 @@ namespace OSCVRCWiz.Services.Text
             if (VoiceWizardWindow.MainFormGlobal.rjToggleButtonOBSText.Checked == true && VoiceWizardWindow.MainFormGlobal.rjToggleButtonHideDelay2.Checked)
             {
                 OutputText.outputTextFile("", @"Output\TextOutput\OBSText.txt");
-                OutputText.outputTextFile("", @"Output\TextOutput\OBSTextTranslated.txt");
             }
 
             System.Diagnostics.Debug.WriteLine("****-------*****--------Tick");
@@ -860,7 +859,6 @@ namespace OSCVRCWiz.Services.Text
                 {
                     // System.IO.File.WriteAllTextAsync(@"TextOut\OBSText.txt", String.Empty);
                     OutputText.outputTextFile(String.Empty, @"Output\TextOutput\OBSText.txt");
-                    OutputText.outputTextFile(String.Empty, @"Output\TextOutput\OBSTextTranslated.txt");
                 }
             }
             catch (Exception ex)
